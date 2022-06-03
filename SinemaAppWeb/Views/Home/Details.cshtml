@@ -8,22 +8,22 @@
         <div class="card mb-3">
             <div class="card-body">
                 <div class="row no-gutters">
-                    <div class="col-md-4">
-                        <img src="/img/@Model.ImageUrl" alt="@Model.Description" class="card-img" />
-                    </div>
-                    <div class="col-md-4">
-                        <iframe width="560" height="315" src="@Model.TrailerUrl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    </div>
+                        <div class="col-md-4" >
+                            <img src="@Model.ImageUrl" alt="@Model.Description" class="card-img" style="border: 3px solid #09e3e5;"/>
+                        </div>
+                        <div class="trailer">
+                            <iframe width="634" height="475" src="@Model.TrailerUrl" title="YouTube video player" style="border: 3px solid #09e3e5;" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
                     <div class="col-md-8">
                         <div class="card-body">
-                            <h3 class="card-title">
+                            <h3 class="card-title" style="color:#09e3e5;">
                                 <b>@Model.Name</b>
                             </h3>
                             <p class="card-text">@Model.Description</p>
                             <br />
-                            <p class="card-text"><b style="font-size: 20px;">Yönetmen: </b>@Model.Yonetmen</p>
+                            <p class="card-text"><b style="font-size: 20px; color:#09e3e5">Yönetmen: </b>@Model.Yonetmen</p>
                             <br />
-                            <p class="card-text"><b style="font-size: 20px;">Oyuncular: </b>@Model.Oyuncular</p>
+                            <p class="card-text"><b style="font-size: 20px; color:#09e3e5">Oyuncular: </b>@Model.Oyuncular</p>
                             <br />
                         </div>
                     </div>

@@ -16,7 +16,7 @@ namespace SinemaAppWeb.Models
         public string Name { get; set; }
         [Required(ErrorMessage = "Açıklama alanı boş bırakılamaz!")]
         public string Description { get; set; }
-        public string IMDBStar { get; set; }
+        public string IMDbStar { get; set; }
         public string Yonetmen { get; set; }
         public string Oyuncular { get; set; }
         [Required(ErrorMessage = "Fotoğraf alanı boş bırakılamaz!")]

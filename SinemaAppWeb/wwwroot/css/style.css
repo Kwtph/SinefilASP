@@ -32,3 +32,6 @@ header{
 .bg-warning {
     background-color: white !important;
 }
+.imdb {
+    flex: 1 1 0px;
+}
