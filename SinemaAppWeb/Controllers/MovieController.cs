@@ -21,5 +21,6 @@ namespace SinemaAppWeb.Controllers
         {
             return View();
         }
+
     }
 }
